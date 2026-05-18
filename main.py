@@ -1,4 +1,3 @@
-from os import getenv
 import asyncio
 from aiogram import Bot, Dispatcher
 from dotenv import load_dotenv
