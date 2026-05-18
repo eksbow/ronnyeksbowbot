@@ -1,4 +1,0 @@
-name = "ronnyeksbowbot"
-main = "main.py"
-compatibility_date = "2026-05-17"
-compatibility_flags = [ "python_workers" ]
