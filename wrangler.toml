@@ -4,4 +4,4 @@ compatibility_date = "2024-03-01"
 compatibility_flags = ["python_workers"]
 
 # Добавляем эту строчку, чтобы Cloudflare принудительно подтянул aiogram на сервере:
-requirements = [ "aiogram==3.13.0" ]
+requirements = [ "aiogram==3.28.2" ]
