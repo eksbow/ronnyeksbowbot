@@ -9,8 +9,8 @@ TOKEN = getenv("BOT_TOKEN")
 
 dp = Dispatcher()
 dp.include_router(router)
-bot.delete_webhook()
 
+bot.delete_webhook()
 async def main():
     bot = Bot(token=TOKEN)
     print("started")
@@ -20,4 +20,4 @@ async def main():
 if __name__ == '__main__':
     asyncio.run(main())
 
-
+bot.delete_webhook()
