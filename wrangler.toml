@@ -1,4 +1,7 @@
-name = "ronnyeksbowbot"
+name = "project1"
 main = "main.py"
 compatibility_date = "2025-05-18"
 compatibility_flags = ["python_workers"]
+
+# Добавляем эту строчку, чтобы Cloudflare принудительно подтянул aiogram на сервере:
+requirements = [ "aiogram==3.13.0" ]
