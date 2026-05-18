@@ -10,7 +10,6 @@ TOKEN = getenv("BOT_TOKEN")
 dp = Dispatcher()
 dp.include_router(router)
 
-bot.delete_webhook()
 async def main():
     bot = Bot(token=TOKEN)
     print("started")
