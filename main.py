@@ -2,7 +2,7 @@ import asyncio
 from aiogram import Bot, Dispatcher
 from handlers.routes import router
 
-TOKEN = 8687657673:AAFwiA1N0dKBVAXhCJD66-WECx0pNkfTG5k
+TOKEN = '8687657673:AAFwiA1N0dKBVAXhCJD66-WECx0pNkfTG5k'
 
 dp = Dispatcher()
 dp.include_router(router)
