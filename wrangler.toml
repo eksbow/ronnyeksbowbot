@@ -1,5 +1,0 @@
-name = "project1"
-main = "main.py"
-compatibility_date = "2026-05-18"
-compatibility_flags = ["python_workers"]
-requirements = ["aiogram==3.28.2"]
